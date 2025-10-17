@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu with the toggle action
-        getMenuInflater().inflate(R.menu.main_menu, menu);
+        getMenuInflater().inflate(R.menu.mainmenu, menu);
 
         // Set the correct title for the toggle button
         MenuItem toggleItem = menu.findItem(R.id.action_toggle_display);

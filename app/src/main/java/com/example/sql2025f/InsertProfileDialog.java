@@ -26,7 +26,7 @@ public class InsertProfileDialog extends DialogFragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_insert_profile_dialog, container, false);
+        View view = inflater.inflate(R.layout.fragmentinsertprofiledialog, container, false);
 
         // Initialize views
         nameEditText = view.findViewById(R.id.nameEditText);
