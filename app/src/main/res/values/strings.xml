@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">SQL2025F</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_profile">Add New Profile</string>
+    <string name="name_hint">Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="id_hint">ID (8-digit number: 10000000-99999999)</string>
+    <string name="gpa_hint">GPA (0.0 - 4.3)</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
 </resources>

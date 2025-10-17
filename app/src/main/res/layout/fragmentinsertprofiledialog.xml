@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add New Profile"
+        android:text="@string/add_new_profile"
         android:textSize="20sp"
         android:textStyle="bold"
         android:paddingBottom="16dp" />
@@ -18,8 +18,10 @@
         android:id="@+id/nameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Name"
+        android:minHeight="48dp"
+        android:hint="@string/name_hint"
         android:inputType="textPersonName"
+        android:autofillHints="name"
         android:layout_marginBottom="12dp" />
 
     <!-- Surname Input -->
@@ -27,8 +29,10 @@
         android:id="@+id/surnameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Surname"
+        android:minHeight="48dp"
+        android:hint="@string/surname_hint"
         android:inputType="textPersonName"
+        android:autofillHints="name"
         android:layout_marginBottom="12dp" />
 
     <!-- ID Input -->
@@ -36,9 +40,11 @@
         android:id="@+id/idEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ID (8-digit number: 10000000-99999999)"
+        android:minHeight="48dp"
+        android:hint="@string/id_hint"
         android:inputType="number"
         android:maxLength="8"
+        android:autofillHints="username"
         android:layout_marginBottom="12dp" />
 
     <!-- GPA Input -->
@@ -46,8 +52,10 @@
         android:id="@+id/gpaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="GPA (0.0 - 4.3)"
+        android:minHeight="48dp"
+        android:hint="@string/gpa_hint"
         android:inputType="numberDecimal"
+        android:autofillHints=""
         android:layout_marginBottom="16dp" />
 
     <!-- Buttons -->
@@ -61,15 +69,15 @@
             android:id="@+id/cancelButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel"
+            android:text="@string/cancel"
             android:layout_marginEnd="8dp"
-            style="@style/Widget.Material3.Button.OutlinedButton" />
+            style="@style/Widget.Material3.Button.TextButton" />
 
         <Button
             android:id="@+id/saveButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save" />
+            android:text="@string/save" />
     </LinearLayout>
 
 </LinearLayout>
